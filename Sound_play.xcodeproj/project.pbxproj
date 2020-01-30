@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		525BE74D23B49D270047A6F0 /* red.wav in Resources */ = {isa = PBXBuildFile; fileRef = 525BE74C23B49D270047A6F0 /* red.wav */; };
+		525BE74F23B49D340047A6F0 /* purple.wav in Resources */ = {isa = PBXBuildFile; fileRef = 525BE74E23B49D330047A6F0 /* purple.wav */; };
+		525BE75123B49D390047A6F0 /* indigo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 525BE75023B49D390047A6F0 /* indigo.wav */; };
+		525BE75323B49D410047A6F0 /* orange.wav in Resources */ = {isa = PBXBuildFile; fileRef = 525BE75223B49D410047A6F0 /* orange.wav */; };
+		525BE75523B49D470047A6F0 /* blue.wav in Resources */ = {isa = PBXBuildFile; fileRef = 525BE75423B49D470047A6F0 /* blue.wav */; };
+		525BE75723B49D510047A6F0 /* green.wav in Resources */ = {isa = PBXBuildFile; fileRef = 525BE75623B49D510047A6F0 /* green.wav */; };
+		525BE75923B49D7F0047A6F0 /* yellow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 525BE75823B49D7F0047A6F0 /* yellow.wav */; };
+		525BE75B23B49D960047A6F0 /* green.wav in Resources */ = {isa = PBXBuildFile; fileRef = 525BE75A23B49D960047A6F0 /* green.wav */; };
 		52A5DD7123B294B400FF31C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A5DD7023B294B400FF31C5 /* AppDelegate.swift */; };
 		52A5DD7323B294B400FF31C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A5DD7223B294B400FF31C5 /* SceneDelegate.swift */; };
 		52A5DD7523B294B400FF31C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A5DD7423B294B400FF31C5 /* ViewController.swift */; };
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		525BE74C23B49D270047A6F0 /* red.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = red.wav; path = ../../../red.wav; sourceTree = "<group>"; };
+		525BE74E23B49D330047A6F0 /* purple.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = purple.wav; path = ../../../purple.wav; sourceTree = "<group>"; };
+		525BE75023B49D390047A6F0 /* indigo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = indigo.wav; path = ../../../indigo.wav; sourceTree = "<group>"; };
+		525BE75223B49D410047A6F0 /* orange.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = orange.wav; path = ../../../orange.wav; sourceTree = "<group>"; };
+		525BE75423B49D470047A6F0 /* blue.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = blue.wav; path = ../../../blue.wav; sourceTree = "<group>"; };
+		525BE75623B49D510047A6F0 /* green.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = green.wav; path = ../../green.wav; sourceTree = "<group>"; };
+		525BE75823B49D7F0047A6F0 /* yellow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = yellow.wav; path = ../../../yellow.wav; sourceTree = "<group>"; };
+		525BE75A23B49D960047A6F0 /* green.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = green.wav; path = ../../../green.wav; sourceTree = "<group>"; };
 		52A5DD6D23B294B400FF31C5 /* Sound_play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sound_play.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A5DD7023B294B400FF31C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52A5DD7223B294B400FF31C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +115,8 @@
 		52A5DD6F23B294B400FF31C5 /* Sound_play */ = {
 			isa = PBXGroup;
 			children = (
+				525BE75623B49D510047A6F0 /* green.wav */,
+				52A5DDAF23B29E4300FF31C5 /* sound */,
 				52A5DD7023B294B400FF31C5 /* AppDelegate.swift */,
 				52A5DD7223B294B400FF31C5 /* SceneDelegate.swift */,
 				52A5DD7423B294B400FF31C5 /* ViewController.swift */,
@@ -126,6 +144,20 @@
 				52A5DD9423B294CD00FF31C5 /* Info.plist */,
 			);
 			path = Sound_playUITests;
+			sourceTree = "<group>";
+		};
+		52A5DDAF23B29E4300FF31C5 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				525BE75823B49D7F0047A6F0 /* yellow.wav */,
+				525BE75423B49D470047A6F0 /* blue.wav */,
+				525BE74E23B49D330047A6F0 /* purple.wav */,
+				525BE75A23B49D960047A6F0 /* green.wav */,
+				525BE75223B49D410047A6F0 /* orange.wav */,
+				525BE75023B49D390047A6F0 /* indigo.wav */,
+				525BE74C23B49D270047A6F0 /* red.wav */,
+			);
+			path = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +222,9 @@
 		52A5DD6523B294B400FF31C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					0,
+				);
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = M29;
@@ -232,8 +267,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525BE75123B49D390047A6F0 /* indigo.wav in Resources */,
 				52A5DD7D23B294CC00FF31C5 /* LaunchScreen.storyboard in Resources */,
+				525BE75923B49D7F0047A6F0 /* yellow.wav in Resources */,
 				52A5DD7A23B294CC00FF31C5 /* Assets.xcassets in Resources */,
+				525BE75723B49D510047A6F0 /* green.wav in Resources */,
+				525BE75323B49D410047A6F0 /* orange.wav in Resources */,
+				525BE75523B49D470047A6F0 /* blue.wav in Resources */,
+				525BE74F23B49D340047A6F0 /* purple.wav in Resources */,
+				525BE74D23B49D270047A6F0 /* red.wav in Resources */,
+				525BE75B23B49D960047A6F0 /* green.wav in Resources */,
 				52A5DD7823B294B400FF31C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
